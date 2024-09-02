@@ -9,10 +9,12 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    width: 80vw;
+    max-width: 80vw;
     margin: auto auto;
     align-items: center;
 }
+
+
 
 nav img{
     height: 110px;
@@ -66,15 +68,15 @@ nav ul a:hover {
 
 .first {
     display: flex;
-    width: 90vw;
-    margin: auto auto;
+    max-width: 90vw;
+    margin: auto;
     justify-content: space-around;
 }
 
 
 .chat {
-    height: 83vh;
-    width: 35vw;
+    height: 600px;
+    width: 510px;
     background-color: white;
     margin: 65px 0px;
     border-radius: 23px;
@@ -83,7 +85,7 @@ nav ul a:hover {
 .chatnav {
     background-color: black;
     height: 70px;
-    width: 35vw;
+    width: 510px;
     border-radius: 23px;
     display: flex;
     align-items: center;
@@ -130,8 +132,8 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 252px;
-    width: 35vw;
+    top: 227px;
+    width: 450px;
     margin: auto;
 }
 
@@ -144,8 +146,8 @@ nav ul a:hover {
 }
 
 .dentistimg {
-    height: 83vh;
-    width: 35vw;
+    height: 600px;
+    width: 510px;
     margin: 65px 0px;
 }
 
@@ -185,6 +187,7 @@ nav ul a:hover {
     align-items: center;
     justify-content: center;
     margin: 50px;
+    flex-wrap: wrap;
 }
 .dentistcard1{
     height: 430px;
@@ -401,7 +404,7 @@ nav ul a:hover {
 }
 .fifth{
     display: flex;
-    margin: 40px auto;
+    margin: 40px 90px;
 }
 
 .review{
@@ -412,7 +415,7 @@ nav ul a:hover {
 .reviewcard{
     border: 2px solid white;
     width: 600px;
-    margin-left: 200px;
+    margin-left: 25px;
     margin-top: 20px;
     height: 130px;
     display: flex;
